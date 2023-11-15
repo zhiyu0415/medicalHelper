@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>醫療小幫手</title>
+  <link rel="stylesheet" href="header.css">
+</head>
+<body>
+
+  <header>
+    <h1>醫療小幫手</h1>
+  </header>
+
+  <nav>
+    <a href="#">首頁</a>
+    <a href="#">手術問卷</a>
+    <a href="#">個人醫療</a>
+    <a href="#">個人基本資料修改</a>
+    <a href="#">回饋</a>
+    <button id="loginBtn">登入</button>
+    <button id="registerBtn">註冊</button>
+  </nav>
+
+  <script>
+    // 簡單的 JavaScript 處理按鈕點擊事件，你可以在這裡加上跳轉邏輯
+    document.getElementById('loginBtn').addEventListener('click', function() {
+      window.location.href = 'login.html'; // 更換成登入頁面的路徑
+    });
+
+    document.getElementById('registerBtn').addEventListener('click', function() {
+      window.location.href = 'register.html'; // 更換成註冊頁面的路徑
+    });
+  </script>
+
+</body>
+</html>
