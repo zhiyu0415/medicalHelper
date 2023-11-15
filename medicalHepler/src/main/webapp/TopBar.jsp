@@ -5,7 +5,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Your Website</title>
+  <title>醫療小幫手</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -14,22 +14,23 @@
     }
 
     header {
-      background-color: #333;
-      padding: 10px;
+      background-color: #C3DDE4;
+      padding: 1px;
       text-align: center;
     }
 
     nav {
       display: flex;
-      justify-content: center;
-      background-color: #555;
-      padding: 10px;
+      justify-content: flex-end;
+      background-color: #C3DDE4;
+      padding: 1px;
     }
 
     nav a {
-      color: white;
+      color: black;
       text-decoration: none;
-      margin: 0 15px;
+      margin: 10px 15px;
+      font-size: 25px;
     }
 
     nav a:hover {
@@ -37,14 +38,14 @@
     }
 
     button {
-      background-color: #4CAF50;
-      color: white;
+      background-color: #F4F0E4;
+      color: black;
       border: none;
       padding: 10px 20px;
       text-align: center;
       text-decoration: none;
       display: inline-block;
-      font-size: 16px;
+      font-size: 20px;
       margin: 4px 2px;
       cursor: pointer;
     }
@@ -53,7 +54,7 @@
 <body>
 
   <header>
-    <h1>Your Website</h1>
+    <h1>醫療小幫手</h1>
   </header>
 
   <nav>
