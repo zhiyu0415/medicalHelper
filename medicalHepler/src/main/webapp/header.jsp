@@ -6,6 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>醫療小幫手</title>
+  <link rel="stylesheet" href="styles.css">
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -55,7 +56,7 @@
     <a href="#">首頁</a>
     <a href="#">手術問卷</a>
     <a href="#">個人醫療</a>
-    <a href="#">個人基本資料修改</a>
+    <a href="editor.jsp">個人基本資料修改</a>
     <a href="#">回饋</a>
     <button id="loginBtn">登入</button>
     <button id="registerBtn">註冊</button>
@@ -69,6 +70,7 @@
     document.getElementById('registerBtn').addEventListener('click', function() {
       window.location.href = 'register.jsp'; // 更換成註冊頁面的路徑
     });
+    
   </script>
 
 </body>

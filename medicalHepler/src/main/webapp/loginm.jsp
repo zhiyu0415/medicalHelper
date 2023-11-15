@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=BIG5"
     pageEncoding="BIG5"%>
+<%@ include file="header.jsp" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +8,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login Page</title>
   <style>
+    header.jsp{
+    	position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        padding: 10px;
+        text-align: center;
+        z-index: 1000; /* 確保 header 在最上層 */
+        }
+    }
     body {
       font-family: Arial, sans-serif;
       background-color: #f0f0f0;
@@ -16,6 +28,7 @@
       align-items: center;
       justify-content: center;
       height: 100vh;
+      width: 50vh;
     }
 
     .login-container {
